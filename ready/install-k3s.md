@@ -65,7 +65,7 @@ echo -e "HA Master Node run 'bash masterha.sh'."
 echo -e "Worker Node run 'bash node.sh'."
 ```
 
-## HA Mater节点shell
+## HA Mater节点
 
 先执行master节点安装完成输出的 `K3S_TOKEN` `K3S_URL` 信息
 
@@ -110,7 +110,7 @@ export INSTALL_K3S_EXEC="server --docker --token $K3S_TOKEN --server $K3S_URL --
 bash ./offline/install.sh
 ```
 
-## Node节点shell
+## Node节点
 
 先执行master节点安装完成输出的 `K3S_TOKEN` `K3S_URL` 信息
 
