@@ -1,5 +1,7 @@
 # 中小型企业Kubernetes入坑指南
 
+Github: [https://github.com/cnplat/cnplat.com](https://github.com/cnplat/cnplat.com)
+
 Gitbook: [https://docs.cnplat.com/](https://docs.cnplat.com/)
 
 ## 目录
