@@ -6,8 +6,7 @@ Gitbook: [https://docs.cnplat.com/](https://docs.cnplat.com/)
 
 ## 目录
 
-- [ ] [前言](preface/README.md)
-  - [ ] [初衷](preface/original-intention.md)
+- [x] [前言](preface/README.md)
   - [x] [适合的读者](preface/suitable-readers.md)
 - [x] [准备](ready/README.md)
   - [x] [安装轻量级K8S之K3S](ready/install-k3s.md)
