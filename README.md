@@ -7,7 +7,8 @@ Gitbook: [https://docs.cnplat.com/](https://docs.cnplat.com/)
 ## 目录
 
 * [前言](preface/README.md)
-  * [介绍](README.md)
+  * [初衷](preface/original-intention.md)
+  * [适合的读者](preface/suitable-readers.md)
 * [准备](ready/README.md)
   * [使用腾讯云TKE初始化Kubernetes](ready/install-kubernetes-for-tencent.md)
   * [安装轻量级K8S之K3S](ready/install-k3s.md)
