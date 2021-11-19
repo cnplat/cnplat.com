@@ -1,6 +1,5 @@
 # Table of contents
 
-* [README](README.md)
 * [前言](preface/README.md)
   * [介绍](README.md)
 * [准备](ready/README.md)
