@@ -4,7 +4,6 @@ Gitbook: [https://docs.cnplat.com/](https://docs.cnplat.com/)
 
 ## 目录
 
-* [README](README.md)
 * [前言](preface/README.md)
   * [介绍](README.md)
 * [准备](ready/README.md)
