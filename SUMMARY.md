@@ -6,7 +6,7 @@
 * [准备](ready/README.md)
   * [安装 Kubernetes](ready/install-kubernetes.md)
 * [选型](selection/README.md)
-  * [Kubernetes GitOps连续交付之argo-cd](selection/argo-cd.md)
+  * [GitOps连续交付之argo-cd](selection/argo-cd.md)
   * [Kubernetes运维管管理之Kubernetes Dashboard](selection/kubernetes-dashboard.md)
   * [HTTP反向代理、服务发现、负载均衡之Traefik](selection/traefik.md)
   * [监控系统之Kube-Prometheus](selection/kube-prometheus.md)
