@@ -2,7 +2,7 @@
 
 ## 介绍
 
-我们需要准备一个Kubernetes环境，可以选择腾讯云TKE、阿里云ACK等云平台的Kubernetes产品，也可选择自己搭建原生Kubernetes、轻量级K3S、也可以使用Docker Desktop自带的Kubernetes环境。
+我们需要准备一个Kubernetes环境，可以选择腾讯云TKE、阿里云ACK等云平台的Kubernetes产品，也可选择自己搭建原生Kubernetes、轻量级K3S、也可以使用Docker Desktop内置的Kubernetes环境。
 
 ## 建议
 
