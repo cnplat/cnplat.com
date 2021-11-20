@@ -15,6 +15,6 @@
   * [实时分布式消息传递平台之NSQ](base/nsq.md)
   * [云原生监控报警系统之Kube-Prometheus](base/kube-prometheus.md)
   * [云原生全链路追踪系统之Jaeger](base/jaeger.md)
-* [框架选型](frame-selection/README.md)
-  * [分布式多语言多平台开发框架之dapr](frame-selection/dapr.md)
+* [框架选型](frame/README.md)
+  * [分布式多语言多平台开发框架之dapr](frame/dapr.md)
 * [附录](appendix.md)
