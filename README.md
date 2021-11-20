@@ -1,4 +1,4 @@
-# 中小型企业Kubernetes入坑指南
+# 中小型企业云原生入坑指南
 
 Github: [https://github.com/cnplat/cnplat.com](https://github.com/cnplat/cnplat.com)
 
