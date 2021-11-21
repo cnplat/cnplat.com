@@ -1,8 +1,9 @@
 # Table of contents
 
 * [前言](preface/README.md)
-  * [初衷](preface/original-intention.md)
+  * [为什么选择云原生](preface/why-cloud-native.md)
   * [适合的读者](preface/suitable-readers.md)
+  * [致谢](preface/suitable-readers.md)
 * [准备](ready/README.md)
   * [公有云的Kubernetes服务](ready/public-cloud-kubernetes.md)
   * [安装轻量级K8S之K3S](ready/install-k3s.md)
