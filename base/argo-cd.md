@@ -2,6 +2,8 @@
 
 ## 介绍
 
+Argo CD是用于Kubernetes的声明性GitOps连续交付工具。
+
 Github: [https://github.com/argoproj/argo-cd](https://github.com/argoproj/argo-cd)
 
 ## 安装
