@@ -6,4 +6,12 @@ Github: [https://github.com/kubernetes/dashboard](https://github.com/kubernetes/
 
 ## 安装
 
+```shell
+kubectl apply -f https://raw.githubusercontent.com/cnplat/architect/main/kubernetes-dashboard/kubernetes-dashboard.yaml
+kubectl apply -f https://raw.githubusercontent.com/cnplat/architect/main/kubernetes-dashboard/dashboard-adminuser.yaml
+# 获取登录token
+kubectl describe secret admin-user --namespace=kube-system
+# Visit: https://<your server ip>:30801/
+```
+
 ## 基础使用
