@@ -7,7 +7,7 @@ Gitbook: [https://docs.cnplat.com/](https://docs.cnplat.com/)
 ## 目录
 
 - [x] [前言](preface/README.md)
-  - [ ] [为什么选择云原生](preface/why-cloud-native.md)
+  - [ ] [云原生是什么](preface/why-cloud-native.md)
   - [x] [适合的读者](preface/suitable-readers.md)
   - [ ] [致谢](preface/thanks.md)
 - [x] [准备](ready/README.md)
