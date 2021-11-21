@@ -12,4 +12,15 @@
 
 介绍我团队选型相关的软件的原因、安装、基础使用等，不会做过深的技术研究，在拥抱云原生生态的前提，保持弹性伸缩的申请，面向架构，面向业务设计与结构，快速应用落地。
 
-*请优先学习[GitOps连续交付之argo-cd](argo-cd.md)章节，后续应用安装教程将全部基于argo安装。*
+## 本章内容
+
+> 请优先学习[GitOps连续交付之argo-cd](argo-cd.md)章节，后续应用部署管理升级等教程将基于argo编写。
+
+  * [GitOps连续交付之argo-cd](base/argo-cd.md)
+  * [云原生开源企业级分布式存储之longhorn](base/longhorn.md)
+  * [可视化运维管理之Kubernetes Dashboard](base/kubernetes-dashboard.md)
+  * [HTTP反向代理、服务发现、负载均衡之Traefik](base/traefik.md)
+  * [MySQL水平扩展集群系统之Vitess](base/vitess.md)
+  * [实时分布式消息传递平台之NSQ](base/nsq.md)
+  * [云原生监控报警系统之Kube-Prometheus](base/kube-prometheus.md)
+  * [云原生全链路追踪系统之Jaeger](base/jaeger.md)
