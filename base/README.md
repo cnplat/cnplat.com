@@ -14,11 +14,11 @@
 
 ## 本章内容
 
-> 请优先学习[GitOps连续交付之argo-cd](argo-cd.md)章节，后续应用部署管理升级等教程将基于argo编写。
+> 请优先学习[可视化运维管理之Kubernetes Dashboard](kubernetes-dashboard.md)、[GitOps连续交付之argo-cd](argo-cd.md)章节，后续应用部署管理升级等教程将基于这部分教程编写。
 
+  * [可视化运维管理之Kubernetes Dashboard](kubernetes-dashboard.md)
   * [GitOps连续交付之argo-cd](argo-cd.md)
   * [云原生开源企业级分布式存储之longhorn](longhorn.md)
-  * [可视化运维管理之Kubernetes Dashboard](kubernetes-dashboard.md)
   * [HTTP反向代理、服务发现、负载均衡之Traefik](traefik.md)
   * [MySQL水平扩展集群系统之Vitess](vitess.md)
   * [实时分布式消息传递平台之NSQ](nsq.md)
