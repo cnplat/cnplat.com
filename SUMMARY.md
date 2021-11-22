@@ -15,7 +15,6 @@
   * [StatefulSets](https://kubernetes.io/zh/docs/concepts/workloads/controllers/statefulset/)
   * [DaemonSet](https://kubernetes.io/zh/docs/concepts/workloads/controllers/daemonset/)
   * [Jobs](https://kubernetes.io/zh/docs/concepts/workloads/controllers/job/)
-  * [已完成资源的TTL控制器](https://kubernetes.io/zh/docs/concepts/workloads/controllers/ttlafterfinished/)
   * [CronJob](https://kubernetes.io/zh/docs/concepts/workloads/controllers/cron-jobs/)
   * [定制资源](https://kubernetes.io/zh/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 * [Kubernetes生态工具](tools/README.md)
