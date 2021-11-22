@@ -35,4 +35,4 @@ nbTjEbeMQQlzcoZv
 nbTjEbeMQQlzcoZv
 ```
 
-![登录页](/static/image/argocd1/jpeg)
+![登录页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd1.jpeg)
