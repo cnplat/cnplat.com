@@ -38,3 +38,29 @@ nbTjEbeMQQlzcoZv
 ![登录页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/login.jpeg)
 
 ![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/home.jpeg)
+
+### 添加GIT配置仓库
+
+创建一个GIT仓库，后面Kubenetes相关的应用，公司开发的软件的部署yaml文件都会放在这里，argocd将基于这个仓库自动维护软件部署更新等操作。
+
+现在，我们使用github作为演示，地址为`https://github.com/cnplat/argo-apps`
+
+1. 点击`设置`页面。
+
+![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/addrepo/1.png)
+
+2. 点击`Repositories`。
+
+![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/addrepo/2.png)
+
+3. 点击`Connect Repo using HTTPS`，添加git仓库。
+
+![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/addrepo/3.png)
+
+4. 输入git仓库地址，私有仓库需要输入`Username`和`Password`，最后点击左上角`Connect`按钮，完成添加。
+
+![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/addrepo/4.png)
+
+5. 添加完成。
+
+![主页](https://raw.githubusercontent.com/cnplat/cnplat.com/main/static/image/argocd/addrepo/5.png)
