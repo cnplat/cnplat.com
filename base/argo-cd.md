@@ -8,17 +8,32 @@ Github: [https://github.com/argoproj/argo-cd](https://github.com/argoproj/argo-c
 
 ## 安装
 
+### Github
+
 ```shell
-~ kubectl create ns argocd
-~ kubectl apply -n argocd -f https://raw.githubusercontent.com/cnplat/architect/main/argo/cd.yaml
-# 查看相关服务状态，STATUS全部为Running后进行下一步
-~ kubectl get pods -n=argocd
-NAME                                      READY   STATUS            RESTARTS   AGE
-pod/argocd-application-controller-0       1/1     Running           0          3m33s
-pod/argocd-dex-server-6dcf645b6b-ph9z6    1/1     Running           0          3m34s
-pod/argocd-redis-5b6967fdfc-8bthj         1/1     Running           0          3m34s
-pod/argocd-repo-server-7598bf5999-l9q9v   1/1     Running           0          3m34s
-pod/argocd-server-79f9bc9b44-vctx2        1/1     Running           0          3m34s
+kubectl create ns argocd
+# 普通安装
+kubectl apply -n argocd -f https://raw.githubusercontent.com/cnplat/yaml/main/argo-cd/install.yaml
+# 高可用安装
+# kubectl apply -n argocd -f https://raw.githubusercontent.com/cnplat/yaml/main/argo-cd/ha-application-crd.yaml
+# kubectl apply -n argocd -f https://raw.githubusercontent.com/cnplat/yaml/main/argo-cd/ha-appproject-crd.yaml
+# kubectl apply -n argocd -f https://raw.githubusercontent.com/cnplat/yaml/main/argo-cd/ha-install.yaml
+# 获取argo-cd admin密码
+~ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+nbTjEbeMQQlzcoZv
+# Visit UI: https://<your server ip>:30810/
+```
+
+## Gitee
+
+```shell
+kubectl create ns argocd
+# 普通安装
+kubectl apply -n argocd -f https://gitee.com/cnplat/yaml/raw/main/argo-cd/install.yaml
+# 高可用安装
+# kubectl apply -n argocd -f https://gitee.com/cnplat/yaml/raw/main/argo-cd/ha-application-crd.yaml
+# kubectl apply -n argocd -f https://gitee.com/cnplat/yaml/raw/main/argo-cd/ha-appproject-crd.yaml
+# kubectl apply -n argocd -f https://gitee.com/cnplat/yaml/raw/main/argo-cd/ha-install.yaml
 # 获取argo-cd admin密码
 ~ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 nbTjEbeMQQlzcoZv
@@ -43,7 +58,7 @@ nbTjEbeMQQlzcoZv
 
 创建一个GIT仓库，后面Kubenetes相关的应用，公司开发的软件的部署yaml文件都会放在这里，argocd将基于这个仓库自动维护软件部署更新等操作。
 
-现在，我们使用github作为演示，地址为`https://github.com/cnplat/argo-apps`
+现在，我们使用github作为演示，地址为`https://github.com/cnplat/yaml`
 
 1. 点击`设置`页面。
 

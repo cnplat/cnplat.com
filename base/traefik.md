@@ -6,7 +6,23 @@ Github: [https://github.com/traefik/traefik/](https://github.com/traefik/traefik
 
 ## 安装
 
-> 请优先学习[GitOps连续交付之argo-cd](argo-cd.md)章节，安装教程将基于argo编写。
+### Github
+
+```
+kubectl create ns traefik
+kubectl apply -n traefik -f https://raw.githubusercontent.com/cnplat/yaml/main/traefik/traefik-crd.yaml
+kubectl apply -n traefik -f https://raw.githubusercontent.com/cnplat/yaml/main/traefik/traefik-rbac.yaml
+kubectl apply -n traefik -f https://raw.githubusercontent.com/cnplat/yaml/main/traefik/traefik-ingress-controller.yml
+```
+
+### Gitee
+
+```shell
+kubectl create ns traefik
+kubectl apply -n traefik -f https://gitee.com/cnplat/yaml/raw/main/traefik/traefik-crd.yaml
+kubectl apply -n traefik -f https://gitee.com/cnplat/yaml/raw/main/traefik/traefik-rbac.yaml
+kubectl apply -n traefik -f https://gitee.com/cnplat/yaml/raw/main/traefik/traefik-ingress-controller.yml
+```
 
 
 ## 基础使用

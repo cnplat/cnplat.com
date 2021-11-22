@@ -14,7 +14,7 @@
 
 ## 本章内容
 
-> 请优先学习[可视化运维管理之Kubernetes Dashboard](kubernetes-dashboard.md)、[GitOps连续交付之argo-cd](argo-cd.md)章节，后续应用部署管理升级等教程将基于这部分教程编写。
+> 在此，你需要有了解过Kubernetes，了解Kubernetes一切都是资源（一切都是Yaml）的概念。
 
   * [可视化运维管理之Kubernetes Dashboard](kubernetes-dashboard.md)
   * [GitOps连续交付之argo-cd](argo-cd.md)
