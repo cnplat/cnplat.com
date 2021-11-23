@@ -24,7 +24,7 @@ nbTjEbeMQQlzcoZv
 # Visit UI: https://<your server ip>:30810/
 ```
 
-## Gitee
+### Gitee
 
 ```shell
 kubectl create ns argocd
