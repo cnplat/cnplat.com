@@ -18,6 +18,7 @@
   * [CronJob](https://kubernetes.io/zh/docs/concepts/workloads/controllers/cron-jobs/)
   * [定制资源](https://kubernetes.io/zh/docs/concepts/extend-kubernetes/api-extension/custom-resources/)
 * [Kubernetes生态工具](tools/README.md)
+  * [Kubernetes IDE之Lens](tools/lens.md)
   * [Kubernetes包管理器之Helm](tools/helm.md)
   * [可视化运维管理之Kubernetes Dashboard](tools/kubernetes-dashboard.md)
   * [GitOps连续交付之argo-cd](tools/argo-cd.md)
